@@ -133,6 +133,7 @@ bdSize1 = 5
 ktGraph1 = knightGraph(bdSize1)
 print(ktGraph1.vertList)
 path1 = []
+print('a')
 for i in range(bdSize1 ** 2):
     out = knightTour(1, path1, ktGraph1.getVertex(i), bdSize1 ** 2)
     print(i)
